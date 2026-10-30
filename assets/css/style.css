@@ -434,3 +434,8 @@ h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
   .contact-art { min-height: 340px; }
   .contact-art .contact-note { position: absolute; left: 4%; top: 120px; width: 180px; grid-column: auto; justify-self: auto; transform: rotate(3deg); }
 }
+
+
+/* No underlines anywhere; links turn violet on hover instead */
+a, .pill, .underline { text-decoration: none !important; }
+a:not(.pill):not(.icon):hover { color: var(--violet); }
