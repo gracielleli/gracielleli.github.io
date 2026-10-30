@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wdth,wght@75..100,400..800&family=Jost:wght@300;400;500&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="theme-{{ page.theme }}">
+  <div class="grain" aria-hidden="true"></div>
+  {% include nav.html %}
+  <main>
+{{ content }}
+  </main>
+  <footer class="footer">
+    <span>&copy; {{ site.title }}</span>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </footer>
+</body>
+</html>

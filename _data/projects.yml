@@ -1,0 +1,83 @@
+# RESEARCH PAGE
+# Each folder is a theme. Each project inside it has a title, collaborators, and a description.
+# To add a project: copy an existing project (from "- title:" down to the end of its description),
+# paste it underneath, and change the words. Keep the same spacing at the start of each line.
+
+- folder: "deification & vilification"
+  tab: "symbols & saints"
+  projects:
+    - title: "Symbolic Person Perception: A Theory of Deification and Vilification of Public Personas"
+      collaborators: "Alin Coman"
+      description: >-
+        Public figures are sometimes perceived as more than individuals with particular traits or accomplishments;
+        they come to represent broader identities, values, ideals, or threats. This theory paper introduces symbolic
+        person perception as a framework for understanding how such representations develop, distinguishing between
+        what a perceiver believes a person is like and what that person is understood to represent. Within this
+        framework, deification is the perception of a figure as an exceptional embodiment of a sacred ideal, and
+        vilification as an exceptional embodiment of a broader threat. The framework generates predictions about which
+        information perceivers treat as revealing of character, how they respond when a figure contradicts what they
+        represent, and how symbolic meaning shapes behavior toward public figures.
+
+    - title: "How Admiration and Abhorrence Shape Moral Judgments of Public Figure Evaluations and Transgressions"
+      collaborators: "Alin Coman"
+      description: >-
+        How do prior impressions of public figures shape moral judgment when those figures behave in unexpected ways?
+        Across two preregistered studies, participants nominated and ranked public figures they admired or detested,
+        then evaluated those figures performing moral violations or virtuous acts that varied in intensity. The
+        findings reveal an asymmetry: admiration did little to soften judgments of wrongdoing, whereas detestation
+        reduced the moral credit assigned to virtuous behavior. Identification with a figure, rather than the extremity
+        of admiration or detestation, was associated with more favorable judgments of both the act and the actor.
+
+    - title: "Political Charisma as Community-Level Deification"
+      collaborators: "Jack Citrin"
+      description: >-
+        Political charisma is often described as though it resides in the leader, yet classic theories of charismatic
+        authority suggest that it depends on followers' recognition of a leader's extraordinary qualities. This project
+        proposes that charismatic political authority can emerge through the interaction of individual symbolic person
+        perception and collective symbolic reinforcement, as follower communities construct, negotiate, and reinforce
+        shared understandings of what a leader represents. It examines when this collective process elevates leaders
+        into positions of exceptional moral or symbolic significance, and how it shapes followers' interpretations of
+        their behavior and recognition of their political authority.
+
+- folder: "parasocial relationships"
+  tab: "one-sided bonds"
+  projects:
+    - title: "How Mental Representations and Expectation Violations Alter Evaluations of Public Figures"
+      collaborators: "Anuj Shah"
+      description: >-
+        This project examines how the structure of people's beliefs about a public figure shapes what they expect that
+        figure to do. In a preregistered study, stronger connectivity among beliefs about an influencer's artist identity
+        predicted greater expectations of identity-consistent behavior and lower expectations of identity-inconsistent
+        behavior. Ongoing work examines how contradictory behavior by influencers fragments these belief networks.
+
+    - title: "Parasocial Trust and the Architecture of Belief Systems"
+      collaborators: "Alin Coman"
+      description: >-
+        Human beliefs are not isolated propositions but parts of an interconnected network that shapes how individuals
+        interpret new information. Building on belief network frameworks and theories of parasocial influence, this
+        project tests whether exposing Republicans to contradictory statements from a trusted figure, Donald Trump,
+        weakens targeted peripheral beliefs and whether those shifts cascade to more strongly held convictions. Brief
+        exposure to contradictions weakened peripheral beliefs, and when a peripheral belief weakened and its ties to
+        central beliefs loosened, the change rippled inward to core convictions. Stronger parasocial relationships
+        increased epistemic trust in Trump, though trust did not account for belief change.
+
+    - title: "Do Expectation Violations Shape Connection? Comparing Close, Parasocial, and Human-AI Relationships"
+      collaborators: "Rose E. Guingrich and Alin Coman"
+      description: >-
+        An important part of forming relationships involves creating expectations about how another person or entity
+        will think, respond, and behave. Although prediction error has been examined in the context of social
+        connection, less is known about whether it carries the same meaning across close interpersonal, parasocial, and
+        human-AI relationships. Because these relationships differ in reciprocity and responsiveness, the same level of
+        prediction error may not carry the same relational meaning across them. By comparing them directly, this project
+        clarifies when expectation violation is linked to closeness and when perceived intimacy may emerge without
+        mutuality.
+
+- folder: "collective dynamics"
+  tab: "networks & communities"
+  projects:
+    - title: "A Network Mapping of the Manosphere Ecosystem"
+      collaborators: "Chardon Murray, Sydney Garcia, and Alin Coman"
+      description: >-
+        This project maps the network structure of online manosphere communities, examining how communities are
+        organized and how they interact with one another. A second study, embedded within the network map, examines how
+        followers interpret interactions among creators. The project is conducted in collaboration with Diverting Hate.

@@ -1,0 +1,35 @@
+---
+layout: default
+title: Policy
+theme: sky
+nav: policy
+---
+<section class="page">
+  <header class="page-head">
+    <h1 class="display">policy</h1>
+    <p class="lede">Applied work bringing research on trust, influence, and decision-making to policy organizations.</p>
+  </header>
+
+  <div class="policy-list">
+    {% for item in site.data.policy %}
+    <article class="folder">
+      <span class="folder-tab">{{ item.dates }}</span>
+      <div class="folder-body policy-body">
+        <div class="policy-head">
+          <h2 class="folder-title">{{ item.org }}</h2>
+          <p class="policy-role">{{ item.role }}</p>
+          {% if item.collaborators %}<p class="with">with {{ item.collaborators }}</p>{% endif %}
+        </div>
+        {% if item.description %}<p class="policy-text">{{ item.description }}</p>{% endif %}
+        {% if item.links %}
+        <ul class="policy-links">
+          {% for link in item.links %}
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

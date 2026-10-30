@@ -1,0 +1,28 @@
+---
+layout: default
+title: Research
+theme: sky
+nav: research
+---
+<section class="page">
+  <header class="page-head">
+    <h1 class="display">research</h1>
+    <p class="lede">I study how parasocial relationships, the one-sided emotional connections people form with media figures, shape beliefs, attitudes, and behavior.</p>
+  </header>
+
+  {% for group in site.data.projects %}
+  <article class="folder">
+    <span class="folder-tab">{{ group.tab }}</span>
+    <div class="folder-body">
+      <h2 class="folder-title">{{ group.folder }}</h2>
+      {% for project in group.projects %}
+      <div class="card{% cycle ' tilt-l', ' tilt-r', '' %}">
+        <h3>{{ project.title }}</h3>
+        {% if project.collaborators %}<p class="with">with {{ project.collaborators }}</p>{% endif %}
+        <p>{{ project.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </article>
+  {% endfor %}
+</section>

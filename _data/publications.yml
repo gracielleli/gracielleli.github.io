@@ -1,0 +1,27 @@
+# PUBLICATIONS PAGE
+# Each entry is one item. "link" is optional; leave it out if there is no link yet.
+# "status" decides which section it appears in: published, in press, or under review.
+# To add one: copy an entry (from "- citation:" to its last line), paste it, and change the words.
+
+- citation: "Coman, A., Belaustegui, I. X., Ferro, G., Izumi, K., Hachisuka, S., Hashimoto, R., He, L., Huang, H., Jalon, I., Kido, Y., Kuzuoka, H., Lee, Y., Leonard, N., Li, G., Mieczkowski, E., Ohtsubo, Y., Otsubo, K., Rao, V., Strittmatter, Y., Takayanagi, T., & Wang, K. Toward a science of collective dynamics in the age of artificial intelligence."
+  venue: "Under review at Nature Human Behaviour"
+  status: "under review"
+
+- citation: "Li, G., & Coman, A. (in press). Emotional contagion in organizational networks."
+  venue: "Concise Encyclopaedia of Emotions and Diversity Management"
+  status: "in press"
+
+- citation: "Li, G. (2026). Navigating financial advice in the social media age: From individual skills to systemic change."
+  venue: "New America"
+  status: "published"
+  link: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
+
+- citation: "Li, G. (2026). Scrolling to financial agency: How Gen Z navigates financial advice on social media."
+  venue: "New America"
+  status: "published"
+  link: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
+
+- citation: "Li, G., & Coman, A. (2025). Socially distributed wisdom: The social scaffolding of metacognition in the digital age."
+  venue: "Journal of Applied Research in Memory and Cognition, 14(3), 330–334"
+  status: "published"
+  link: "https://doi.org/10.1037/mac0000251"

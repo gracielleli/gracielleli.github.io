@@ -1,0 +1,28 @@
+---
+layout: default
+title: Publications
+theme: sky
+nav: publications
+---
+<section class="page">
+  <header class="page-head">
+    <h1 class="display">publications</h1>
+    <p class="lede"><a class="underline" href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar Profile</a></p>
+  </header>
+
+  <div class="index">
+    {% assign sections = "published|in press|under review" | split: "|" %}
+    {% for section in sections %}
+    <h2 class="index-head">{{ section }}</h2>
+    <ul class="index-list">
+      {% for pub in site.data.publications %}{% if pub.status == section %}
+      <li class="index-card">
+        <p class="cite">{{ pub.citation }}</p>
+        <p class="venue">{{ pub.venue }}</p>
+        {% if pub.link %}<a class="pill pill-sm" href="{{ pub.link }}" target="_blank" rel="noopener">read</a>{% endif %}
+      </li>
+      {% endif %}{% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</section>

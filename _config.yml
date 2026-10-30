@@ -1,0 +1,8 @@
+# Site settings. You rarely need to change anything here.
+title: "Gracielle Li"
+description: "Ph.D. Candidate in Psychology and Social Policy at Princeton University"
+email: "gracielle@princeton.edu"
+scholar: "https://scholar.google.com/citations?user=jpRlZ_oAAAAJ&hl=en"
+linkedin: "https://www.linkedin.com/in/gracielleli/"
+exclude:
+  - README.md
