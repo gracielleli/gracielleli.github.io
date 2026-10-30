@@ -465,3 +465,8 @@ a:not(.pill):not(.icon):hover { color: var(--violet); }
 .feature-go { margin-top: auto; padding-top: 6px; font-size: 14px; color: var(--violet); }
 .featured-more { margin: 28px 0 0; text-align: center; }
 @media (max-width: 820px) { .featured { padding: 24px 16px 40px; } }
+
+
+/* Links inside paragraphs: violet so they read as links without underlines */
+.about-text p a, .policy-text a, .lede a { color: var(--violet); }
+.about-text p a:hover, .policy-text a:hover, .lede a:hover { color: var(--ink); }
