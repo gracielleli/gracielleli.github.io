@@ -44,3 +44,14 @@ nav: home
     ‣ parasocial relationships<br>‣ psychology of followership<br>‣ collective dynamics
   </div>
 </section>
+
+
+<section class="featured" aria-labelledby="featured-title">
+  <h2 class="display featured-title" id="featured-title">featured</h2>
+  <div class="featured-grid">
+    {% for item in site.data.featured limit: 3 %}
+    {% include feature-card.html %}
+    {% endfor %}
+  </div>
+  <p class="featured-more"><a class="pill" href="news.html">see all news</a></p>
+</section>
