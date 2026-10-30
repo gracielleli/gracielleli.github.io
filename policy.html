@@ -16,7 +16,8 @@ nav: policy
       <span class="folder-tab">{{ item.dates }}</span>
       <div class="folder-body policy-body">
         <div class="policy-head">
-          <h2 class="folder-title">{% if item.website %}<a class="underline" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</h2>          <p class="policy-role">{{ item.role }}</p>
+          <h2 class="folder-title">{% if item.website %}<a class="underline" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</h2>          
+          <p class="policy-role">{{ item.role }}</p>
           {% if item.collaborators %}<p class="with">with {{ item.collaborators }}</p>{% endif %}
         </div>
         {% if item.description %}<p class="policy-text">{{ item.description }}</p>{% endif %}
