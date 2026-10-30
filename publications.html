@@ -19,8 +19,7 @@ nav: publications
       <li class="index-card">
         <p class="cite">{{ pub.citation }}</p>
         <p class="venue">{{ pub.venue }}</p>
-        {% if pub.link %}<a class="pill pill-sm" href="{{ pub.link }}" target="_blank" rel="noopener">read</a>{% endif %}
-      </li>
+        {% if pub.link %}<a class="pill pill-sm" style="text-decoration: none;" href="{{ pub.link }}" target="_blank" rel="noopener">read</a>{% endif %}      </li>
       {% endif %}{% endfor %}
     </ul>
     {% endfor %}
