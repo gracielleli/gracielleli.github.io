@@ -2,6 +2,15 @@
 # Each entry is one position. "collaborators", "description", and "links" are optional.
 # To add one: copy an entry (from "- org:" down to its last line), paste it, and change the words.
 
+- org: "Diverting Hate"
+  website: "http://divertinghate.org/"
+  role: "Research Collaborator"
+  dates: "2026 – Present"
+  collaborators: "Chardon Murray, Sydney Garcia, and Alin Coman"
+  description: >-
+    In collaboration with Diverting Hate, I am mapping the network structure of online manosphere communities,
+    examining how communities are organized and how they interact with one another.
+    
 - org: "New America"
   website: "https://www.newamerica.org/"
   role: "Social Impact Fellow, Education Policy"
@@ -17,15 +26,6 @@
       url: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
     - label: "Navigating Financial Advice in the Social Media Age: From Individual Skills to Systemic Change"
       url: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
-
-- org: "Diverting Hate"
-  website: "http://divertinghate.org/"
-  role: "Research Collaborator"
-  dates: "2026 – Present"
-  collaborators: "Chardon Murray, Sydney Garcia, and Alin Coman"
-  description: >-
-    In collaboration with Diverting Hate, I am mapping the network structure of online manosphere communities,
-    examining how communities are organized and how they interact with one another.
 
 - org: "ideas42"
   website: "https://www.ideas42.org/"
