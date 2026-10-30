@@ -1,0 +1,10 @@
+<article class="feature-card">
+  <div class="feature-meta">
+    <span class="feature-type">{{ item.type }}</span>
+    {% if item.when %}<span class="feature-when">{{ item.when }}</span>{% endif %}
+  </div>
+  <h3 class="feature-title">{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+  {% if item.source %}<p class="feature-source">{{ item.source }}</p>{% endif %}
+  {% if item.blurb %}<p class="feature-blurb">{{ item.blurb }}</p>{% endif %}
+  {% if item.link %}<a class="feature-go" href="{{ item.link }}" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">open ↗</a>{% endif %}
+</article>

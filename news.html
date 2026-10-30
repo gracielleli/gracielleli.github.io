@@ -1,0 +1,18 @@
+---
+layout: default
+title: News
+theme: sky
+nav: news
+---
+<section class="page">
+  <header class="page-head">
+    <h1 class="display">news</h1>
+    <p class="lede">Press, articles, announcements, and writing.</p>
+  </header>
+
+  <div class="featured-grid">
+    {% for item in site.data.featured %}
+    {% include feature-card.html %}
+    {% endfor %}
+  </div>
+</section>
