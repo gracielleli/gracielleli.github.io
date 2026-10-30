@@ -3,25 +3,25 @@
 # "status" decides which section it appears in: published, in press, or under review.
 # To add one: copy an entry (from "- citation:" to its last line), paste it, and change the words.
 
-- citation: "Coman, A., Belaustegui, I. X., Ferro, G., Izumi, K., Hachisuka, S., Hashimoto, R., He, L., Huang, H., Jalon, I., Kido, Y., Kuzuoka, H., Lee, Y., Leonard, N., Li, G., Mieczkowski, E., Ohtsubo, Y., Otsubo, K., Rao, V., Strittmatter, Y., Takayanagi, T., & Wang, K. Toward a science of collective dynamics in the age of artificial intelligence."
-  venue: "Under review at Nature Human Behaviour"
+- citation: "Coman, A., Belaustegui, I. X., Ferro, G., Izumi, K., Hachisuka, S., Hashimoto, R., He, L., Huang, H., Jalon, I., Kido, Y., Kuzuoka, H., Lee, Y., Leonard, N., Li, G., Mieczkowski, E., Ohtsubo, Y., Otsubo, K., Rao, V., Strittmatter, Y., Takayanagi, T., & Wang, K. Toward a Science of Collective Dynamics in the Age of Artificial Intelligence."
+  venue: "Under Review at Nature Human Behaviour"
   status: "under review"
 
-- citation: "Li, G., & Coman, A. (in press). Emotional contagion in organizational networks."
+- citation: "Li, G., & Coman, A. (in press). Emotional Contagion in Organizational Networks."
   venue: "Concise Encyclopaedia of Emotions and Diversity Management"
   status: "in press"
 
-- citation: "Li, G. (2026). Navigating financial advice in the social media age: From individual skills to systemic change."
+- citation: "Li, G. (2026). Navigating Financial Advice in the Social Media Age: From Individual Skills to Systemic Change."
   venue: "New America"
   status: "published"
   link: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
 
-- citation: "Li, G. (2026). Scrolling to financial agency: How Gen Z navigates financial advice on social media."
+- citation: "Li, G. (2026). Scrolling to Financial Agency: How Gen Z Navigates Financial Advice on Social Media."
   venue: "New America"
   status: "published"
   link: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
 
-- citation: "Li, G., & Coman, A. (2025). Socially distributed wisdom: The social scaffolding of metacognition in the digital age."
+- citation: "Li, G., & Coman, A. (2025). Socially Distributed Wisdom: The Social Scaffolding of Metacognition in the Digital Age."
   venue: "Journal of Applied Research in Memory and Cognition, 14(3), 330–334"
   status: "published"
   link: "https://doi.org/10.1037/mac0000251"
