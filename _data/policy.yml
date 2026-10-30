@@ -2,6 +2,26 @@
 # Each entry is one position. "collaborators", "description", and "links" are optional.
 # To add one: copy an entry (from "- org:" down to its last line), paste it, and change the words.
 
+- org: "Diverting Hate"
+  website: "PASTE-DIVERTING-HATE-WEBSITE-HERE"
+  role: "Research Collaborator"
+  dates: "2026 – Present"
+  collaborators: "Chardon Murray, Sydney Garcia, and Alin Coman"
+  description: >-
+    In collaboration with Diverting Hate, I am mapping the network structure of online manosphere communities,
+    examining how communities are organized and how they interact with one another. A second study, embedded within
+    the network map, examines how followers interpret interactions among creators.
+
+- org: "ideas42"
+  role: "Policy Research Fellow"
+  dates: "Summer 2026"
+  collaborators: "Rachel Ryley"
+  description: >-
+    At ideas42, I supported a policy research project on administrative burdens and child poverty during the COVID-19
+    pandemic, a period when safety net programs such as SNAP and Medicaid rapidly changed their eligibility,
+    recertification, and application processes. I conducted qualitative literature reviews on how these changes shaped
+    administrative burden and program participation, and wrote a policy brief.
+
 - org: "New America"
   role: "Social Impact Fellow, Education Policy"
   dates: "2025 – 2026"
@@ -16,13 +36,3 @@
       url: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
     - label: "Navigating Financial Advice in the Social Media Age: From Individual Skills to Systemic Change"
       url: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
-
-- org: "ideas42"
-  role: "Policy Research Fellow"
-  dates: "Summer 2026"
-  collaborators: "Rachel Ryley"
-  description: >-
-    At ideas42, I supported a policy research project on administrative burdens and child poverty during the COVID-19
-    pandemic, a period when safety net programs such as SNAP and Medicaid rapidly changed their eligibility,
-    recertification, and application processes. I conducted qualitative literature reviews on how these changes shaped
-    administrative burden and program participation, and wrote a policy brief.
