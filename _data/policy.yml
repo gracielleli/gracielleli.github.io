@@ -2,6 +2,22 @@
 # Each entry is one position. "collaborators", "description", and "links" are optional.
 # To add one: copy an entry (from "- org:" down to its last line), paste it, and change the words.
 
+- org: "New America"
+  website: "https://www.newamerica.org/"
+  role: "Social Impact Fellow, Education Policy"
+  dates: "2025 – 2026"
+  collaborators: "An-Me Chung"
+  description: >-
+    As a Social Impact Fellow at New America, I led a study examining how parasocial trust in influencers shapes
+    financial decisions among young adults. Nearly 80% of Gen Z now turn to social media for guidance on budgeting,
+    investing, and even gambling on crypto. That trust can empower, helping users build sustainable habits, or it
+    can be exploited for risky schemes and misinformation.
+  links:
+    - label: "Scrolling to Financial Agency: How Gen Z Navigates Financial Advice on Social Media"
+      url: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
+    - label: "Navigating Financial Advice in the Social Media Age: From Individual Skills to Systemic Change"
+      url: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
+
 - org: "Diverting Hate"
   website: "http://divertinghate.org/"
   role: "Research Collaborator"
@@ -22,19 +38,3 @@
     pandemic, a period when safety net programs such as SNAP and Medicaid rapidly changed their eligibility,
     recertification, and application processes. I conducted qualitative literature reviews on how these changes shaped
     administrative burden and program participation, and wrote a policy brief.
-
-- org: "New America"
-  website: "https://www.newamerica.org/"
-  role: "Social Impact Fellow, Education Policy"
-  dates: "2025 – 2026"
-  collaborators: "An-Me Chung"
-  description: >-
-    As a Social Impact Fellow at New America, I led a study examining how parasocial trust in influencers shapes
-    financial decisions among young adults. Nearly 80% of Gen Z now turn to social media for guidance on budgeting,
-    investing, and even gambling on crypto. That trust can empower, helping users build sustainable habits, or it
-    can be exploited for risky schemes and misinformation.
-  links:
-    - label: "Scrolling to Financial Agency: How Gen Z Navigates Financial Advice on Social Media"
-      url: "https://www.newamerica.org/insights/scrolling-to-financial-agency/"
-    - label: "Navigating Financial Advice in the Social Media Age: From Individual Skills to Systemic Change"
-      url: "https://www.newamerica.org/insights/navigating-financial-advice-in-the-social-media-age-from-individual-skills-to-systemic-change/"
