@@ -222,6 +222,7 @@ h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
 }
 .page-head { text-align: center; margin-bottom: 48px; }
 .lede { max-width: 640px; margin: 22px auto 0; font-size: 19px; }
+.lede + .lede { margin-top: 6px; }
 
 /* about */
 .about {
@@ -233,6 +234,15 @@ h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
 .about-art { position: relative; padding-top: 60px; min-height: 520px; }
 .about-art .manila { inset: 30px 0 0 10px; transform: rotate(-3deg); }
 .about-art .polaroid-lg { position: relative; transform: rotate(4deg); margin: 30px auto 0; }
+.snapshots { position: relative; display: flex; justify-content: center; margin: 34px auto 44px; padding: 0 6px; }
+.polaroid-snap { flex: 0 1 118px; min-width: 0; padding: 6px 6px 8px; transition: transform .25s ease; }
+.polaroid-snap img { aspect-ratio: 4 / 5; }
+.polaroid-snap figcaption { font-size: 13px; margin-top: 6px; }
+.polaroid-snap:nth-child(1) { transform: rotate(-6deg); margin-right: -10px; }
+.polaroid-snap:nth-child(2) { transform: rotate(3deg) translateY(14px); z-index: 1; }
+.polaroid-snap:nth-child(3) { transform: rotate(-2deg); margin-left: -10px; }
+.polaroid-snap:hover { transform: rotate(0deg) translateY(-6px) scale(1.06); z-index: 2; }
+@media (prefers-reduced-motion: reduce) { .polaroid-snap { transition: none; } }
 .about-text { min-width: 0; }
 .about-text .display { margin-bottom: 28px; }
 .about-text p { margin: 0 0 18px; max-width: 62ch; }
