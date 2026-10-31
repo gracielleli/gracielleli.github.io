@@ -530,5 +530,5 @@ a:not(.pill):not(.icon):hover { color: var(--violet); }
 
 
 /* Links inside paragraphs: violet so they read as links without underlines */
-.about-text p a, .policy-text a, .lede a { color: var(--violet); }
-.about-text p a:hover, .policy-text a:hover, .lede a:hover { color: var(--ink); }
+.about-text p a, .policy-text a, .lede a, .card p a { color: var(--violet); }
+.about-text p a:hover, .policy-text a:hover, .lede a:hover, .card p a:hover { color: var(--ink); }
