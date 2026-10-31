@@ -13,10 +13,16 @@ nav: research
   </header>
 
   {% for group in site.data.projects %}
-  <article class="folder">
-    <span class="folder-tab">{{ group.tab }}</span>
-    <div class="folder-body">
+  <details class="folder fold">
+    <summary class="fold-front">
+      <span class="folder-tab">{{ group.tab }}</span>
       <h2 class="folder-title">{{ group.folder }}</h2>
+      <span class="fold-meta">
+        <span class="fold-count">{{ group.projects | size }} project{% if group.projects.size != 1 %}s{% endif %}</span>
+        <span class="fold-icon" aria-hidden="true"></span>
+      </span>
+    </summary>
+    <div class="folder-body fold-body">
       {% for project in group.projects %}
       <div class="card{% cycle ' tilt-l', ' tilt-r', '' %}">
         <h3>{{ project.title }}</h3>
@@ -25,6 +31,6 @@ nav: research
       </div>
       {% endfor %}
     </div>
-  </article>
+  </details>
   {% endfor %}
 </section>
