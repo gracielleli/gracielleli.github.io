@@ -18,6 +18,10 @@
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; background: var(--cloud); }
+/* custom pixel cursors (arrow everywhere, pointing hand on anything clickable) */
+html { cursor: url("/assets/img/cursor.svg") 1 1, auto; }
+a, button, summary, label[for], select, [role="button"] { cursor: url("/assets/img/cursor-pointer.svg") 10 1, pointer; }
+input, textarea, [contenteditable="true"] { cursor: text; }
 body {
   margin: 0;
   min-height: 100vh;
@@ -297,7 +301,7 @@ h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
 
 /* research folders: closed until clicked (research page only) */
 .fold { margin-bottom: 26px; }
-.fold > summary { list-style: none; cursor: pointer; }
+.fold > summary { list-style: none; cursor: url("/assets/img/cursor-pointer.svg") 10 1, pointer; }
 .fold > summary::-webkit-details-marker { display: none; }
 .fold-front {
   display: flex; align-items: center; justify-content: space-between; gap: 14px 24px; flex-wrap: wrap;
