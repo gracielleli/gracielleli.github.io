@@ -1,9 +1,12 @@
 # POLICY PAGE
-# Each entry is one position. "collaborators", "description", and "links" are optional.
+# Each entry is one position. "collaborators", "description", "links", and "image" are optional.
+# To add a picture: put it in assets/img and write its path on an "image:" line, like the ones below.
 # To add one: copy an entry (from "- org:" down to its last line), paste it, and change the words.
 
 - org: "Diverting Hate"
   website: "http://divertinghate.org/"
+  image: "assets/img/policy-diverting-hate.jpg"
+  image_alt: "Illustration of a network of people connected to pills"
   role: "Research Collaborator"
   dates: "2026 – Present"
   collaborators: "Chardon Murray, Sydney Garcia, and Alin Coman"
@@ -13,6 +16,8 @@
     
 - org: "New America"
   website: "https://www.newamerica.org/"
+  image: "assets/img/policy-new-america.jpg"
+  image_alt: "Illustration of a bitcoin, a savings jar, and stacks of cash on a path to a flag"
   role: "Social Impact Fellow, Education Policy"
   dates: "2025 – 2026"
   collaborators: "An-Me Chung"
@@ -29,6 +34,8 @@
 
 - org: "ideas42"
   website: "https://www.ideas42.org/"
+  image: "assets/img/policy-ideas42.jpg"
+  image_alt: "Illustration of a family with icons for health care, housing, savings, and groceries"
   role: "Policy Research Fellow"
   dates: "Summer 2026"
   collaborators: "Rachel Ryley"
