@@ -15,25 +15,27 @@ nav: policy
     <article class="folder">
       <span class="folder-tab">{{ item.dates }}</span>
       <div class="folder-body policy-body{% if item.image %} has-art{% endif %}">
-        <div class="policy-main">
-        <div class="policy-head">
-          <h2 class="folder-title">{% if item.website %}<a class="underline" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</h2>          
-          <p class="policy-role">{{ item.role }}</p>
-          {% if item.collaborators %}<p class="with">with {{ item.collaborators }}</p>{% endif %}
+        <div class="policy-top">
+          <div class="policy-intro">
+            <div class="policy-head">
+              <h2 class="folder-title">{% if item.website %}<a class="underline" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}</h2>
+              <p class="policy-role">{{ item.role }}</p>
+              {% if item.collaborators %}<p class="with">with {{ item.collaborators }}</p>{% endif %}
+            </div>
+            {% if item.description %}<p class="policy-text">{{ item.description }}</p>{% endif %}
+          </div>
+          {% if item.image %}
+          <figure class="polaroid policy-art">
+            <img src="{{ item.image }}" alt="{{ item.image_alt }}" loading="lazy">
+          </figure>
+          {% endif %}
         </div>
-        {% if item.description %}<p class="policy-text">{{ item.description }}</p>{% endif %}
         {% if item.links %}
         <ul class="policy-links">
           {% for link in item.links %}
           <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
           {% endfor %}
         </ul>
-        {% endif %}
-        </div>
-        {% if item.image %}
-        <figure class="polaroid policy-art">
-          <img src="{{ item.image }}" alt="{{ item.image_alt }}" loading="lazy">
-        </figure>
         {% endif %}
       </div>
     </article>
