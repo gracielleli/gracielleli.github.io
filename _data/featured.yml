@@ -5,6 +5,11 @@
 # To add one: copy an entry (from "- type:" down to its last line), paste it at the top, and change the words.
 
 - type: "announcement"
+  when: "Oct 2026"
+  title: "Gracielle Li passes general examination, receives incidental Master of Arts degree to be awarded on November 21, 2026"
+  source: "Department of Psychology, Princeton University, The Graduate School"
+  
+- type: "announcement"
   when: "Feb 2027"
   title: "Do Expectation Violations Shape Connection? Comparing Close, Parasocial, and Human-AI Relationships"
   source: "Poster, Psychology of Technology Annual Convention, Berkeley"
@@ -13,11 +18,6 @@
   when: "Nov 2026"
   title: "How Admiration and Abhorrence Shape Moral Judgments of Public Figure Evaluations and Transgressions"
   source: "Poster, Society for Personality and Social Psychology Annual Convention, Philadelphia"
-
-- type: "announcement"
-  when: "Oct 2026"
-  title: "Gracielle Li passes general examination, receives incidental Master of Arts degree to be awarded on November 21, 2026"
-  source: "Department of Psychology, Princeton University, The Graduate School"
 
 - type: "press"
   when: "Aug 2026"
