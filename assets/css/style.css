@@ -336,6 +336,17 @@ h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
 .policy-role { margin: 0; font-weight: 500; font-size: 18px; }
 .policy-head .with { font-family: var(--hand); font-size: 14px; color: var(--violet); margin: 0; }
 .policy-text { margin: 0; max-width: 70ch; }
+.policy-main { display: grid; gap: 14px; min-width: 0; align-content: start; }
+.policy-body.has-art { grid-template-columns: minmax(0, 1fr) minmax(190px, 270px); column-gap: 40px; align-items: start; }
+.policy-art { padding: 8px 8px 22px; transform: rotate(3deg); transition: transform .25s ease; }
+.policy-list .folder:nth-child(even) .policy-art { transform: rotate(-3deg); }
+.policy-art img { aspect-ratio: auto; }
+.policy-list .folder .policy-art:hover { transform: rotate(0deg) scale(1.03); }
+@media (max-width: 760px) {
+  .policy-body.has-art { grid-template-columns: 1fr; row-gap: 24px; }
+  .policy-art { width: min(240px, 70%); justify-self: center; order: -1; }
+}
+@media (prefers-reduced-motion: reduce) { .policy-art { transition: none; } }
 .policy-links { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 10px; }
 .policy-links a {
   display: block;
